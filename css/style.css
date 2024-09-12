@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*------top navbar css start-----*/
+.top-navbar {
+  width: 1500px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #335151;
+}
+
+/*------navbar css start------*/
+.li-fontSize li {
+  font-size: 18px;
+  font-weight: 400;
+}
+.list-margin1,
+.list-margin2,
+.list-margin3 {
+  margin-right: 10px;
+}
+
+/*------banner part css start------*/
+#banner {
+  width: 1500px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+.banner-part-img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner-text {
+  text-align: center;
+}
+.banner-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.banner-text p {
+  margin: 5px 0;
+  color: #484848;
+  font-size: 18px;
+  margin-top: 28px;
+  font-weight: 400;
+}
+.banner-text button {
+  margin-top: 28px;
+  width: 310px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #335151;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+/* Indoor Plants css start */
+.badge-discount {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #51777c;
+  margin-top: 20px;
+  line-height: 3;
+}
+.badge-discount span {
+  line-height: 2.5;
+  border-radius: 20px;
+}
+.indoor-text1-part {
+  width: 330px;
+}
+.indoor-text1-part button {
+  border-radius: 16px;
+  background-color: #4285f4;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.indoor-text1-part button:hover {
+  border-radius: 16px;
+  background-color: #779ea0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.border-radius {
+  border-radius: 20px;
+}
+.indoor-discount-button button {
+  border-radius: 20px;
+  border: 0;
+}
+
+/*======slider part css start======*/
+.card {
+  width: 280px;
+  height: 229px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-img {
+  width: 60px;
+  border-radius: 100%;
+  height: 60px;
+  object-fit: cover; /* Ensures image maintains aspect ratio */
+}
+.star-rating {
+  color: #fbc02d;
+}
+.google-logo {
+  width: 20px;
+  height: 20px;
+}
+.card-width {
+  width: 296px;
+}
+
+/* res */
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.google-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.star-rating i {
+  color: #ffcc00;
+}
+
+.card {
+  border: none;
+}
+
+/*======plant part css start======*/
+.plant {
+  padding-top: 130px;
+}
+
+/*=====UK delivery Part css start=====*/
+#delivery {
+  background-color: #f5e7dd;
+  margin-top: 130px;
+}
+.deleviry-text {
+  padding-top: 60px;
+}
+.delivery-margin {
+  width: 1500px;
+  margin: 0 auto;
+}
+.delivery-content {
+  text-align: center;
+}
+.delivery-content img {
+  margin: 0 auto;
+}
+.delivery-content h1 {
+  font-size: 28px;
+  font-weight: 900;
+}
+.delivery-content p {
+  margin: 5px 0;
+}
+
+/*=====office part css start=====*/
+#Offices {
+  margin-top: 120px;
+}
+.h-img {
+  height: 475px;
+}
+.office-background {
+  background-color: #335151;
+  padding: 110px 58px 0px 63px;
+  color: #ffff;
+}
+.office-part-text {
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 90px;
+}
+.office-part-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Eighties Comeback";
+}
+.office-part-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.office-part-text p {
+  padding-top: 60px;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+.office-part-text button {
+  width: 128px;
+  height: 42px;
+  color: #ffff;
+  border-radius: 20px;
+  border: 2px solid #9b9797;
+  background-color: #335151;
+  text-decoration: inherit;
+}
+
+.btn1:hover {
+  width: 128px;
+  height: 42px;
+  color: #ffff;
+  border-radius: 20px;
+  background-color: #e4b2b2;
+}
+.btn2:hover {
+  width: 128px;
+  height: 42px;
+  color: #ffff;
+  border-radius: 20px;
+  background-color: #9bbabd;
+}
+.btn3:hover {
+  width: 128px;
+  height: 42px;
+  color: #ffff;
+  border-radius: 20px;
+  background-color: #a2c699;
+}
+/*=====Plant Accessories Part css Start=====*/
+#plant-accessories {
+  width: 1500px;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+.card-body-css h5 {
+  color: #000000;
+  font-family: "Eighties Comeback";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.para {
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  margin-top: 60px;
+}
+.card-body-css button {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #4285f4;
+  width: 190px;
+  height: 40px;
+  border: 0;
+  color: #ffff;
+  border-radius: 50px 50px 50px 50px;
+}
+.card-body-css button:hover {
+  background-color: #779ea0;
+}
+/* only card */
+.main-card-css h5 {
+  font-size: 18px;
+}
+.main-card-css p {
+  font-size: 16px;
+}
+.main-card-css button {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #4285f4;
+  width: 140px;
+  height: 40px;
+  border: 0;
+  color: #ffff;
+  border-radius: 28px;
+}
+.main-card-css button:hover {
+  background-color: #000000;
+}
+/*=====Popular Plant Collections Css Start=====*/
+#plant-collection {
+  padding-top: 90px;
+}
+.popular-plant-collection {
+  color: #000000;
+  font-family: "Eighties Comeback";
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+.Plant-style h5 {
+  color: #000000;
+  font-family: "PT Serif";
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.Plant-style p {
+  text-align: left;
+  color: #484848;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0px;
+}
+.Plant-style a {
+  width: 100px;
+  font-weight: 500;
+  font-size: 15px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #4285f4;
+  border-style: solid;
+  border-color: #4285f4;
+  border-radius: 50px 50px 50px 50px;
+}
+.Plant-style a:hover {
+  color: #ffff;
+  background-color: #779ea0;
+}
+
+/*=====Your plants, plant trees css part start=====*/
+#your-plants {
+  width: 1500px;
+  margin: 0 auto;
+  background-color: #80a080;
+}
+.plants-padding {
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+}
+.trees-text h1 {
+  color: #ffff;
+  font-family: "Eighties Comeback";
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.trees-text p {
+  color: #ffff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+.trees-btn button {
+  fill: #fff;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 15px 5px 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: rgba(255, 255, 255, 0.47);
+  border-radius: 50px 50px 50px 50px;
+  margin-right: 180px;
+}
+.trees-btn button:hover {
+  background-color: #ffff;
+  color: #80a080;
+}
+
+/*=====Living Walls for the home css part start=====*/
+
+/*=====footer part css start=====*/
+#footer {
+  padding-top: 120px;
+}
+.hr-line {
+  height: 1px;
+  border: none;
+
+  box-shadow: 0px -6px 7px 1px rgba(176, 176, 176, 0.75);
+  -webkit-box-shadow: 0px -6px 7px 1px rgba(176, 176, 176, 0.75);
+  -moz-box-shadow: 0px -6px 7px 1px rgba(176, 176, 176, 0.75);
+}
+
+/*------for responsive------*/
+/* Media query for devices with a max width of 1500px */
+@media (max-width: 1500px) {
+  #banner,
+  .top-navbar,
+  #slider,
+  #delivery,
+  #your-plants {
+    width: 100%; /* Set the desired width */
+  }
+}
+
+@media (max-width: 992px) {
+  .slider .slick-slide {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider .slick-slide {
+    margin: 10px;
+  }
+}
+
+/* ------------------ */
+@media (max-width: 576px) {
+  .office-background {
+    margin-top: 20px;
+  }
+}
+
+/* For larger screens, fix the button alignment */
+@media (min-width: 768px) {
+  .office-part-img {
+    height: 100%;
+  }
+
+  .office-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/*===================================*/
