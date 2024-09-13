@@ -231,7 +231,7 @@
               <!-- Product 3 -->
               <div class="col-12 col-md-4">
                 <div class="card h-100">
-                  <div class="position-relative indoor-discount-button">
+                  <div class="position-absolute indoor-discount-button">
                     <img
                       src="./image/money.webp"
                       class="card-img-top img-fluid"
@@ -240,7 +240,7 @@
                     <button
                       class="badge-discount badge position-absolute top-0 end-0 m-2"
                     >
-                      <span>SAVE 13%</span>
+                      <span>SAVE 30px</span>
                     </button>
                   </div>
                   <div class="card-body">
@@ -262,385 +262,634 @@
     </section>
 
     <!---slider part start--->
-    <section id="slider" class="plant">
-      <div
-        class="slider container"
-        data-slick='{
-          "slidesToShow": 4,
-          "slidesToScroll": 1,
-          "responsive": [
-            {
-              "breakpoint": 992, 
-              "settings": {
-                "slidesToShow": 2, 
-                "slidesToScroll": 1
-              }
-            },
-            {
-              "breakpoint": 768, 
-              "settings": {
-                "slidesToShow": 1, 
-                "slidesToScroll": 1
-              }
-            }
-          ]
-        }'
-      >
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/2.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
+   <section id="sliderr" class="plant">
+    <div id="containerr">
+      <div id="slider-container">
+        <span onclick="slideRight()" class="btn"></span>
+        <div id="sliderrr">
+          <div class="slidee">
+            <span>
+            <div class="container card-width mt-5">
+              <div class="card p-3">
+                <div class="d-flex align-items-start">
+                  <!-- Profile Image -->
                   <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
+                    src="./image/2.webp"
+                    alt="Profile Image"
+                    class="profile-img"
                   />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/3.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/4.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/5.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/6.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/6.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/6.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/6.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <div class="container card-width mt-5">
-          <div class="card p-3">
-            <div class="d-flex align-items-start">
-              <!-- Profile Image -->
-              <img
-                src="./image/1.webp"
-                alt="Profile Image"
-                class="profile-img"
-              />
-
-              <div class="w-100 ms-3">
-                <!-- Name and Google Logo -->
-                <div class="d-flex justify-content-between">
-                  <h6 class="mb-0">Angela Gordon</h6>
-                  <img
-                    src="./image/google.png"
-                    class="google-logo"
-                    alt="Google Logo"
-                  />
-                </div>
-                <!-- Time ago -->
-                <small class="text-muted">6 days ago</small>
-              </div>
-            </div>
-            <!-- Star Rating -->
-            <div class="star-rating mt-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <!-- Review Text -->
-            <p class="mt-3 mb-0">
-              Wonderful parlour palm! Great communication. Great prices AND
-              delivers from UK to N Ireland with no hassle!
-            </p>
-          </div>
-        </div>
-        <!-- Add other cards here with similar structure -->
-      </div>
-    </section>
     
+                  <div class="w-100 ms-3">
+                    <!-- Name and Google Logo -->
+                    <div class="d-flex justify-content-between">
+                      <h6 class="mb-0">Angela Gordon</h6>
+                      <img
+                        src="./image/google.png"
+                        class="google-logo"
+                        alt="Google Logo"
+                      />
+                    </div>
+                    <!-- Time ago -->
+                    <small class="text-muted">6 days ago</small>
+                  </div>
+                </div>
+                <!-- Star Rating -->
+                <div class="star-rating mt-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <!-- Review Text -->
+                <p class="rating-text-color mt-3 mb-0">
+                  Wonderful parlour palm! Great communication. Great prices AND
+                  delivers from UK to N Ireland with no hassle!
+                </p>
+              </div>
+            </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-color mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="slidee">
+            <span>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/3.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="rating-text-colormt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+              <div class="container card-width mt-5">
+                <div class="card p-3">
+                  <div class="d-flex align-items-start">
+                    <!-- Profile Image -->
+                    <img
+                      src="./image/4.webp"
+                      alt="Profile Image"
+                      class="profile-img"
+                    />
+      
+                    <div class="w-100 ms-3">
+                      <!-- Name and Google Logo -->
+                      <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Angela Gordon</h6>
+                        <img
+                          src="./image/google.png"
+                          class="google-logo"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <!-- Time ago -->
+                      <small class="text-muted">6 days ago</small>
+                    </div>
+                  </div>
+                  <!-- Star Rating -->
+                  <div class="star-rating mt-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <!-- Review Text -->
+                  <p class="mt-3 mb-0">
+                    Wonderful parlour palm! Great communication. Great prices AND
+                    delivers from UK to N Ireland with no hassle!
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+          
+        </div>
+        <span onclick="slideLeft()" class="btn"></span>
+      </div>
+    </div>
+   </section>
     
     
     <!-----Plant Bundles part start----->
@@ -797,122 +1046,79 @@
     </section>
 
     <!-----Plant Accessories Part Start----->
-    <section id="plant-Accessories">
+     <!-- ======================== -->
+     <section id="plant-accessories">
       <div class="container mt-5">
-        <div class="row align-items-center">
-          <!-- row align-items-center -->
-          <!-- Text Section -->
-          <div
-            style="width: 330px"
-            class="indoor-text1-part col-12 col-lg-4 mb-4 mb-lg-0"
-          >
-            <h2 class="fw-bold">Plant Pots</h2>
-            <p class="text-muted indoor-margin">
-              From rugged concrete pots, to smooth clean ceramic pots find the plant pot that suits your style.
-            </p>
-            <p class="text-muted">
-              Ceramic Plant Pots
-              Plastic Plant Pots
-              Self-Watering Plant Pots
-              Indoor Plant Pots
-              Outdoor Plant Pots 🌿
-            </p>
-            <button class="btn">Shop Bundles</button>
+        <div class="row">
+          <!-- Plant Accessories Description Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 card-css">
+              <div class="card-body card-body-css">
+                <h5 class="card-title">Plant Pots</h5>
+                <p class="card-text para">From rugged concrete pots, to smooth clean ceramic pots find the plant pot that suits your style.</p>
+                <p class="card-text"><small class="text-body-secondary">
+                  <p>Ceramic Plant Pots</p>
+                  <p>Plastic Plant Pots</p>
+                  <p>Self-Watering Plant Pots</p>
+                  <p>Indoor Plant Pots</p>
+                  <p>Outdoor Plant Pots 🌿 </p>
+                </small></p>
+                <button class="btn btn-primary">Shop Bundles</button>
+              </div>
+            </div>
           </div>
-
-          <!-- Product Cards Section -->
-          <div class="col-12 col-lg-8">
-            <div class="row g-3">
-              <!-- Product 1 -->
-              <div class="col-12 col-md-4 pe-0">
-                <div class="card h-100">
-                  <div class="position-relative indoor-discount-button">
-                    <img
-                      src="./image/ghoti-1.jpg"
-                      class="card-img-top img-fluid"
-                      alt="Areca Palm"
-                    />
-                    <button
-                      class="badge badge-discount position-absolute top-0 end-0 m-2"
-                    >
-                      <span>SAVE 15%</span>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Tapered Ceramic Pot Matte.</h5>
-                    <p class="card-subtitle text-muted small">
-                      Dipsos Lutescens
-                    </p>
-                    <p class="mt-2">From 
-                      £4.99</p>
-                    <button class="btn btn-outline-primary">
-                      Select Options
-                    </button>
-                  </div>
-                </div>
+    
+          <!-- Plant Mister Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 main-card-css position-relative">
+              <img src="./image/ghoti-1.jpg" class="card-img-top" alt="Plant Mister">
+              <a class="badge bg-color badge-discount position-absolute top-0 end-0 m-2">
+                <span>SAVE 13%</span>
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Tapered Ceramic Pot Matte</h5>
+                <p class="card-subtitle text-muted small">Dipsos Lutescens</p>
+                <p class="card-text">From £4.99</p>
+                <button class="btn btn-success">Add to basket</button>
               </div>
-
-              <!-- Product 2 -->
-              <div class="col-12 col-md-4 pe-0">
-                <div class="card h-100">
-                  <div class="position-relative indoor-discount-button">
-                    <img
-                      src="./image/ghoti-2.jpg"
-                      class="card-img-top img-fluid"
-                      alt="Bird of Paradise Plant"
-                    />
-                    <button
-                      class="badge badge-discount position-absolute top-0 end-0 m-2"
-                    >
-                      <span>SAVE 29%</span>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Matte Ceramic Pot Curved</h5>
-                    <p class="card-subtitle text-muted small">
-                      Strelitzia Nicolai
-                    </p>
-                    <p class="mt-2">From 
-                      £3.49</p>
-                    <button class="btn btn-outline-primary">
-                      Select Options
-                    </button>
-                  </div>
-                </div>
+            </div>
+          </div>
+    
+          <!-- Mica Decorations - Metal Watering Can Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 main-card-css position-relative">
+              <img src="./image/ghoti-2.jpg" class="card-img-top" alt="Metal Watering Can">
+              <a class="badge bg-color badge-discount position-absolute top-0 end-0 m-2">
+                <span>SAVE 13%</span>
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Matte Ceramic Pot Curved</h5>
+                <p class="card-subtitle text-muted small">Strelitzia Nicolai</p>
+                <p class="card-text">From £3.49</p>
+                <button class="btn btn-success">Select Options</button>
               </div>
-
-              <!-- Product 3 -->
-              <div class="col-12 col-md-4">
-                <div class="card h-100">
-                  <div class="position-relative indoor-discount-button">
-                    <img
-                      src="./image/ghoti-3.jpg"
-                      class="card-img-top img-fluid"
-                      alt="Money Tree"
-                    />
-                    <button
-                      class="badge-discount badge position-absolute top-0 end-0 m-2"
-                    >
-                      <span>SAVE 13%</span>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Glossy Straight Edged Pot</h5>
-                    <p class="card-subtitle text-muted small">
-                      Pachira Aquatica
-                    </p>
-                    <p class="mt-2">From £14.99</p>
-                    <button class="btn btn-outline-primary">
-                      Select Options
-                    </button>
-                  </div>
-                </div>
+            </div>
+          </div>
+    
+          <!-- Art Deco Plant Stand Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 main-card-css position-relative">
+              <img src="./image/ghoti-3.jpg" class="card-img-top" alt="Art Deco Plant Stand">
+              <a class="badge bg-color badge-discount position-absolute top-0 end-0 m-2">
+                <span>SAVE 13%</span>
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Glossy Straight Edged Pot</h5>
+                <p class="card-subtitle text-muted small">Pachira Aquatica</p>
+                <p class="card-text">From £14.99</p>
+                <button class="btn btn-success">Select Options</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+     <!-- ======================== -->
 
     <!-- Plants for Offices Part Start -->
     <section id="Offices">
@@ -961,144 +1167,165 @@
   </section>
      <!-----Plant Accessories Part Start----->
      <section id="plant-accessories">
-      <div class="card-group container">
-        <div class="card card-css">
-          <div class="card-body card-body-css">
-            <h5 class="card-title">Plant Accessories</h5>
-            <p class="card-text para">Plant accessories, houseplant fertililsers & pest control help you care for your plants and keep them healthy all year round.</p>
-            <p class="card-text"><small class="text-body-secondary">
-              <p>Watering Can</p>
-                <p>Water Mister</p>
-                <p>Pest Control</p>
-                <p>Houseplant Fertilizers</p>
-                <p>Home Decor</p>
-                <p>Soil Substrates</p>
-            </small></p>
-              <button>Shop Plant Accessories</button>
+      <div class="container">
+        <div class="row">
+          <!-- Plant Accessories Description Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 card-css">
+              <div class="card-body card-body-css">
+                <h5 class="card-title">Plant Accessories</h5>
+                <p class="card-text para">Plant accessories, houseplant fertilizers & pest control help you care for your plants and keep them healthy all year round.</p>
+                <p class="card-text"><small class="text-body-secondary">
+                  <p>Watering Can</p>
+                  <p>Water Mister</p>
+                  <p>Pest Control</p>
+                  <p>Houseplant Fertilizers</p>
+                  <p>Home Decor</p>
+                  <p>Soil Substrates</p>
+                </small></p>
+                <button class="btn btn-primary">Shop Plant Accessories</button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card main-card-css">
-          <img src="./image/assess-img1.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Plant Mister</h5>
-            <p class="card-text">£14.00 <span><del>£14.99</del></span></p>
-            <button>Add to basket</button>
+    
+          <!-- Plant Mister Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 main-card-css">
+              <img src="./image/assess-img1.webp" class="card-img-top" alt="Plant Mister">
+              <div class="card-body">
+                <h5 class="card-title">Plant Mister</h5>
+                <p class="card-text">£14.00 <span><del>£14.99</del></span></p>
+                <button class="btn btn-success">Add to basket</button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card main-card-css">
-          <img src="./image/assess-img2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mica Decorations – Metal Watering Can</h5>
-            <p class="card-text">From £9.99</p>
-            <button>Select Options</button>
+    
+          <!-- Mica Decorations - Metal Watering Can Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 main-card-css">
+              <img src="./image/assess-img2.jpg" class="card-img-top" alt="Metal Watering Can">
+              <div class="card-body">
+                <h5 class="card-title">Mica Decorations – Metal Watering Can</h5>
+                <p class="card-text">From £9.99</p>
+                <button class="btn btn-success">Select Options</button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card main-card-css">
-          <img src="./image/assess-img3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Art Deco Plant Stand</h5>
-            <p class="card-text">From £11.25</p>
-            <button>Select Options</button>
+    
+          <!-- Art Deco Plant Stand Card -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 main-card-css">
+              <img src="./image/assess-img3.jpg" class="card-img-top" alt="Art Deco Plant Stand">
+              <div class="card-body">
+                <h5 class="card-title">Art Deco Plant Stand</h5>
+                <p class="card-text">From £11.25</p>
+                <button class="btn btn-success">Select Options</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-     </section>
+    </section>
+    
+    
      <!-----Popular Plant Collections Part Start----->
      <section id="plant-collection">
-      <div class="container py-5">
-        <h4 class="text-center mb-4 popular-plant-collection">Popular Plant Collections</h4>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-            <!-- Large Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-1.webp" class="card-img-top" alt="Large Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">Large Plants</h5>
-                        <p class="card-text">Easily transform your home and find the best large house plants – including the Kentia Palm, Bird of Paradise Plant & Yucca.</p>
-                        <a href="#" class="btn btn-custom">Go big</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Easy Care Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-2.jpg" class="card-img-top" alt="Easy Care Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">Easy Care Plants</h5>
-                        <p class="card-text">New to growing indoor plants? Choose from our top 10 'unkillable' plants or browse our entire range of easy-care houseplants.</p>
-                        <a href="#" class="btn btn-custom">Go easy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Air Purifying Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-3.webp" class="card-img-top" alt="Air Purifying Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">Air Purifying Plants</h5>
-                        <p class="card-text">Houseplants breathe oxygen into our lives as well as remove nasty air pollutants lurking in our homes. Find out which are most effective.</p>
-                        <a href="#" class="btn btn-custom">Go clean</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Pet-Friendly Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-4.jpg" class="card-img-top" alt="Pet-Friendly Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">Pet-Friendly Plants</h5>
-                        <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
-                        <a href="#" class="btn btn-custom">Go safe</a>
-                    </div>
-                </div>
-            </div>
-        <!-- Pet-Friendly Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-5.webp" class="card-img-top" alt="Pet-Friendly Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">shade liking plants</h5>
-                        <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
-                        <a href="#" class="btn btn-custom">Go safe</a>
-                    </div>
-                </div>
-            </div>
-        <!-- Pet-Friendly Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-6.webp" class="card-img-top" alt="Pet-Friendly Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">hanging plants</h5>
-                        <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
-                        <a href="#" class="btn btn-custom">Go safe</a>
-                    </div>
-                </div>
-            </div>
-        <!-- Pet-Friendly Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-7.jpg" class="card-img-top" alt="Pet-Friendly Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">cheap houseplants</h5>
-                        <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
-                        <a href="#" class="btn btn-custom">Go safe</a>
-                    </div>
-                </div>
-            </div>
-        <!-- Pet-Friendly Plants Card -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./image/img-8.webp" class="card-img-top" alt="Pet-Friendly Plants">
-                    <div class="card-body text-start Plant-style">
-                        <h5 class="card-title">bonsai trees</h5>
-                        <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
-                        <a href="#" class="btn btn-custom">Go safe</a>
-                    </div>
-                </div>
-            </div>
+        <div class="container py-5">
+          <h4 class="text-center mb-4 popular-plant-collection">Popular Plant Collections</h4>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+              <!-- Large Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-1.webp" class="card-img-top" alt="Large Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">Large Plants</h5>
+                          <p class="card-text">Easily transform your home and find the best large house plants – including the Kentia Palm, Bird of Paradise Plant & Yucca.</p>
+                          <a href="#" class="btn btn-custom">Go big</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Easy Care Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-2.jpg" class="card-img-top" alt="Easy Care Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">Easy Care Plants</h5>
+                          <p class="card-text">New to growing indoor plants? Choose from our top 10 'unkillable' plants or browse our entire range of easy-care houseplants.</p>
+                          <a href="#" class="btn btn-custom">Go easy</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Air Purifying Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-3.webp" class="card-img-top" alt="Air Purifying Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">Air Purifying Plants</h5>
+                          <p class="card-text">Houseplants breathe oxygen into our lives as well as remove nasty air pollutants lurking in our homes. Find out which are most effective.</p>
+                          <a href="#" class="btn btn-custom">Go clean</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Pet-Friendly Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-4.jpg" class="card-img-top" alt="Pet-Friendly Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">Pet-Friendly Plants</h5>
+                          <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
+                          <a href="#" class="btn btn-custom">Go safe</a>
+                      </div>
+                  </div>
+              </div>
+          <!-- Pet-Friendly Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-5.webp" class="card-img-top" alt="Pet-Friendly Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">shade liking plants</h5>
+                          <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
+                          <a href="#" class="btn btn-custom">Go safe</a>
+                      </div>
+                  </div>
+              </div>
+          <!-- Pet-Friendly Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-6.webp" class="card-img-top" alt="Pet-Friendly Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">hanging plants</h5>
+                          <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
+                          <a href="#" class="btn btn-custom">Go safe</a>
+                      </div>
+                  </div>
+              </div>
+          <!-- Pet-Friendly Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-7.jpg" class="card-img-top" alt="Pet-Friendly Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">cheap houseplants</h5>
+                          <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
+                          <a href="#" class="btn btn-custom">Go safe</a>
+                      </div>
+                  </div>
+              </div>
+          <!-- Pet-Friendly Plants Card -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./image/img-8.webp" class="card-img-top" alt="Pet-Friendly Plants">
+                      <div class="card-body text-start Plant-style">
+                          <h5 class="card-title">bonsai trees</h5>
+                          <p class="card-text">If you have pets or children running around, it can be important to ensure your plants are safe for your home.</p>
+                          <a href="#" class="btn btn-custom">Go safe</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
-    </div>
      </section>
+
+      <!-- Your plants, plant trees Part Start -->
      <section id="your-plants" class="your-plants py-5">
       <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
           <!-- Text section -->
@@ -1112,7 +1339,7 @@
               <button class="btn btn-success">Discover how</button>
           </div>
       </div>
-  </section>
+    </section>
 
   <!-----Living Walls for the home Part Start----->
   <section id="Offices">
@@ -1264,7 +1491,7 @@
   
         <!-- Copyright Section -->
         <div class="col-lg-4 mb-3">
-          <p class="mb-0">©2022 Oxy-Plants Ltd. <a href="#" class="text-dark text-decoration-none">Privacy Policy</a> | <a href="#" class="text-dark text-decoration-none">Terms & Conditions</a></p>
+          <p class="mb-0">©2022 Oxy-Plants Ltd.<a href="#" class="text-dark text-decoration-none">Privacy Policy</a> | <a href="#" class="text-dark text-decoration-none">Terms & Conditions</a></p>
         </div>
         <div class="col-lg-4 mb-3">
           <a href="#" class="me-3"><img width="30" height="30" src="./image/facebook.png" alt="Facebook"></a>
@@ -1282,49 +1509,10 @@
 
 
 
-
-
-
-
     <!-- Add Bootstrap Icons CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
     <!-- for slider  -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-    ></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(".slider").slick();
-      });
-    </script>
-    <script src="./script/jquery.js">
-        $(document).ready(function(){
-        $('.slider').slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-        });
-      });
-    </script>
+    <script src="./script/carousel.js"></script>
   </body>
 </html>
