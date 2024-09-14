@@ -286,7 +286,7 @@ a {
   margin-top: 60px;
 }
 .card-body-css button {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   background-color: #4285f4;
   width: 190px;
@@ -301,9 +301,11 @@ a {
 /* only card */
 .main-card-css h5 {
   font-size: 18px;
+  color: #000000;
 }
 .main-card-css p {
   font-size: 16px;
+  color: #000000;
 }
 .main-card-css button {
   font-size: 16px;
@@ -425,7 +427,8 @@ a {
   .top-navbar,
   #slider,
   #delivery,
-  #your-plants {
+  #your-plants,
+  #indoor {
     width: 100%; /* Set the desired width */
   }
 }
@@ -433,6 +436,11 @@ a {
 @media (max-width: 992px) {
   .slider .slick-slide {
     margin: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .custom-width-lg {
+    width: 330px;
   }
 }
 
@@ -493,6 +501,7 @@ a {
 #slider-container .btn:first-of-type {
   transform: rotate(-45deg);
   left: 10px;
+  z-index: 999;
 }
 #slider-container .btn:last-of-type {
   transform: rotate(135deg);
@@ -537,5 +546,18 @@ a {
 @media only screen and (max-width: 550px) {
   #slider-container #sliderrr .slidee {
     width: calc(10% - 20px);
+  }
+}
+
+/* ===custom css=== */
+.col-lg-4 {
+  width: 0px; /* 0px for small and medium devices */
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 330px; /* 330px for large devices */
+    overflow: visible;
   }
 }
